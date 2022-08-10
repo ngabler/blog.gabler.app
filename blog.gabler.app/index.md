@@ -15,9 +15,9 @@ title: Nick Gabler's Blog
 
 <body>
 <h1>{{ title }}</h1><br>
-{%- for post in collections.post reversed -%}
+{% for post in collections.post reversed %}
 - [{{ post.data.title }}]({{ post.url }})
-{%- endfor -%}
+{% endfor %}
 </body>
 
 </html>
