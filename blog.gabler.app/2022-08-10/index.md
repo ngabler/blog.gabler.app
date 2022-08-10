@@ -3,6 +3,7 @@ layout: layout.njk
 title: Business Cards
 date: 2022-08-10
 tags: post
+seo: Nick Gabler, Nicholas Gabler, Blog, Business cards, Moo cards, Moo luxe
 ---
 # {{ title }}
 ![Patrick Bateman](/images/bateman.png)  
