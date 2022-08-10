@@ -1,3 +1,6 @@
+---
+title: Nick Gabler's Blog
+---
 <html lang="en">
 
 <head>
@@ -7,11 +10,10 @@
   <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
   <link rel="preload" href="/fonts/jetbrains-mono.woff2" crossorigin="anonymous" as="font" type="font/woff2">
   <link rel="stylesheet" href="/css/main.css">
-  <title>{{ firstname }} {{ lastname }}</title>
+  <title>{{ title }}</title>
 </head>
 
 <body>
-# Nick Gabler's Blog
 {% for post in collections.post %}
 - [{{ post.data.title }}]({{ post.url }})
 {% endfor %}
