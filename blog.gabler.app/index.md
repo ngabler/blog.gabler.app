@@ -15,7 +15,7 @@ title: Nick Gabler's Blog
 
 <body>
 <h1>{{ title }}</h1><br>
-{%- assign posts = collections.post | reverse -%}
+{% assign posts = collections.post | reverse %}
 {% for post in collections.post %}
 - [{{ post.data.title }}]({{ post.url }})
 {% endfor %}
