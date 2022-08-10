@@ -14,6 +14,7 @@ title: Nick Gabler's Blog
 </head>
 
 <body>
+<h1>{{ title }}</h1><br>
 {% for post in collections.post %}
 - [{{ post.data.title }}]({{ post.url }})
 {% endfor %}
