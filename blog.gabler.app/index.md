@@ -1,6 +1,7 @@
 ---
 title: Nick Gabler's Blog
 ---
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
